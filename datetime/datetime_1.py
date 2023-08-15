@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import datetime
 
@@ -7,10 +8,9 @@ def file_date(filename):
     pass
   timestamp = os.path.getmtime(filename)
   # Convert the timestamp into a readable format, then into a string
-  readabletime = str(datetime.datetime.fromtimestamp(timestamp))
+  readableTime = str(datetime.datetime.fromtimestamp(timestamp))
   # Return just the date portion 
-  # Hint: how many characters are in “yyyy-mm-dd”? 
-  return (readabletime[:10])
+  return (readableTime[:10])
 
 print(file_date("newfile.txt")) 
 # Should be today's date in the format of yyyy-mm-dd
