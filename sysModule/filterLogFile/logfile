@@ -1,0 +1,3 @@
+Jul 6 14:01:23 computer.name CRON[29440]: USER (good_user)
+Jul 6 14:03:01 computer.name CRON[29440]: USER (naughty_user)
+Jul 6 14:04:01 computer.name CRON[29440]: USER (naughty_user)
